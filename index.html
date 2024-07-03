@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Spinning Wheel</title>
+  <title>夏日轉盤</title>
   <style>
     @import url(https://fonts.googleapis.com/earlyaccess/cwtexfangsong.css);
     @import url(https://fonts.googleapis.com/earlyaccess/cwtexming.css);
@@ -19,8 +19,8 @@
 
     .luckBg {
       background: #7fb8d6;
-      width: 12rem;
-      height: 12rem;
+      width: 15rem;
+      height: 15rem;
       border-radius: 50%;
       margin: 0 auto;
       padding: 5px;
@@ -164,11 +164,11 @@
     }
 
     #warning {
-      width: 14rem;
-      height: 10rem;
+      width: 17rem;
+      height: 12rem;
       position: fixed;
       z-index: 999;
-      top: 120px;
+      top: 135px;
       left: 50%;
       transform: translate(-50%, -50%);
       background: #daeef5;
@@ -198,11 +198,11 @@
     }
 
     #answer {
-      width: 14rem;
-      height: 10rem;
+      width: 17rem;
+      height: 12rem;
       position: fixed;
       z-index: 999;
-      top: 140px;
+      top: 135px;
       left: 50%;
       transform: translate(-50%, -50%);
       background: #daeef5;
@@ -228,25 +228,25 @@
           </div>
         </div>
         <div id="warning">
-          <p class="introductionC" style="width: 12rem; font-weight: bolder; text-align: center;">您即將進入之看板內容需滿十八歲方可瀏覽
+          <p class="introductionC" style="width: 15rem; font-weight: bolder; text-align: center;">您即將進入之看板內容需滿十八歲方可瀏覽
           </p>
           <br>
           <p class="introductionC"
-            style="height: 5.5rem; width: 12rem; text-align: center; margin-top: 0.7rem; overflow-y: scroll;">
+            style="height: 7.5rem; width: 15rem; text-align: center; margin-top: 0.7rem; overflow-y: scroll;">
             根據「兒童及少年福利與權益保障法」規定，本網站已於非闔家皆宜之看板加以標示。若您尚未年滿十八歲，請點選離開。若您已滿十八歲，亦不可將本區之內容派發、傳閱、出售、出租、交給或借予年齡未滿18歲的人士瀏覽，或將本網站內容向該人士出示、播放或放映。
           </p>
-          <div id="ageButton1" style="margin-top: 7rem;">
+          <div id="ageButton1" style="margin-top: 9rem;">
             <button class="check" onclick="show_content()">同意，且已年滿18歲</button>
             <button class="check">不同意，或未滿18歲</button>
           </div>
         </div>
         <div id="answer" style="display: none;">
-          <p id="answerTitle" class="introductionC" style="width: 12rem; font-weight: bolder; text-align: center;"></p>
+          <p id="answerTitle" class="introductionC" style="width: 15rem; font-weight: bolder; text-align: center;"></p>
           <br>
           <p id="answerContent" class="introductionC"
-            style="height: 5.5rem; width: 12rem; text-align: left; margin-top: 1rem; font-size: 0.6rem; overflow-y: scroll;">
+            style="height: 7.5rem; width: 15rem; text-align: left; margin-top: 1rem; font-size: 0.7rem; overflow-y: scroll;">
           </p>
-          <div id="ageButton1" style="margin-top: 7.2rem;">
+          <div id="ageButton1" style="margin-top: 9.2rem;">
             <button class="check" onclick="close_answer()">再轉一次</button>
           </div>
         </div>
